@@ -28,6 +28,8 @@ nav {
 .work-desc { font-size: 14px; color: #555; line-height: 1.8; margin-bottom: 20px; flex: 1; }
 .work-link { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: #16a085; text-decoration: none; margin-bottom: 16px; transition: opacity 0.2s; }
 .work-link:hover { opacity: 0.75; }
+.work-links { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-bottom: 16px; }
+.work-links .work-link { margin-bottom: 0; }
 .work-skills { padding-top: 16px; border-top: 1px solid #f0f0f0; font-size: 13px; color: #444; }
 .work-skills strong { color: #111; font-weight: 700; }
 .skill-tag { position: relative; cursor: default; display: inline-flex; background: #e8f8f5; color: #16a085; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 20px; margin-left: 4px; margin-top: 4px; border: 1px solid #a2d9ce; }
