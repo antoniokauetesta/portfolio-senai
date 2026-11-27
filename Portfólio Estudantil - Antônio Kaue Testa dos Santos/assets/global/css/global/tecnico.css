@@ -60,3 +60,12 @@
   .c-orange .list-dot { background: #e67e22; }
   .c-green .card-accent { background: #27ae60; }
   .c-green .list-dot { background: #27ae60; }
+  .c-red .card-accent { background: #c0392b; }
+  .c-red .list-dot { background: #c0392b; }
+
+  @media (max-width: 1000px) {
+    .cards-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .cards-grid { grid-template-columns: 1fr; }
+  }
